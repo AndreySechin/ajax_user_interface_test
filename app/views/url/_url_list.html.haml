@@ -1,0 +1,4 @@
+- urls.reverse.each do |url|
+  = link_to "http://#{url.url}" do
+    .alert.alert-url
+      = url.url

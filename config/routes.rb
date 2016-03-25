@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resource :url, only: [:index, :create]
+  root 'url#index'
+  post 'url/add_to_db' => 'url#add_to_db'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

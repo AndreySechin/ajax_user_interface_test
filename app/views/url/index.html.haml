@@ -1,0 +1,6 @@
+#errors
+#form
+  = label_tag(:url, "Website URL:")
+  = text_field_tag(:url, nil, placeholder: 'www.example.com')
+#urls
+  = render 'url_list', urls: @urls
