@@ -4,4 +4,4 @@
 - [demo video]
 
 [live demo on Heroku]: <http://ajax-user-interface-test.herokuapp.com/>
-[video demo]: <https://youtu.be/VdwyalXpv08>
+[demo video]: <https://youtu.be/VdwyalXpv08>
