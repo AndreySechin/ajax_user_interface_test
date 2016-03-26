@@ -3,10 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
   font-family: "proxima-nova",Helvetica,Arial,sans-serif;
-
 }
-
-
 
 #errors,#urls,#form{
   margin: auto;
@@ -18,7 +15,6 @@ body{
   min-width: 270px;
   max-width: 75%;
   a{text-decoration: none;}
-
 }
 
 #errors {
@@ -71,7 +67,7 @@ input[type="text"]:focus{
 
 .alert {
   padding: 8px 35px 8px 14px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -79,6 +75,7 @@ input[type="text"]:focus{
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: #c09853;
+  width: 374px;
 }
 .alert-heading {
   color: inherit;
@@ -96,11 +93,12 @@ input[type="text"]:focus{
 }
 
 .alert-url{
+  font-family: "proxima-nova",Helvetica,Arial,sans-serif;
   text-decoration: none;
   text-align: center;
-  background-color: rgba(144, 197, 169, 0.41);
-  border-color: #8c9887;
-  color: rgba(0, 0, 0, 0.51);
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
 }
 
 .alert-block {
